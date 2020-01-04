@@ -1,0 +1,23 @@
+Test Técnico Software Engineer
+ 
+Problema
+Implementar una solución que permita guardar y listar una/s  Entidad/es TODOs con las siguientes características:
+TODO (To do, listado de tareas por hacer)
+A ) ID
+B) DESCRIPCION (EL TODO a hacer)
+C) Estado
+D) Foto/Imagen/Documento adjunta a la DESCRIPCION
+
+A implementar:
+Listado de TODOs: METHOD GET (Respetar convenciones en la url)
+Listado filtrado por A B y C: METHOD GET (Utilizar query parameters y respetar convenciones)
+Alta del TODO: METHOD POST (Respetar convenciones en la url). Que reciba la foto/imagen/documento también.
+Cambio de estado, de pendiente a resuelta.
+
+
+Consideraciones:
+Construir una Solución Back End utilizando alguna de las siguientes tecnologías:
+.NET/java/NodeJS/PHP
+API REST con los servicios a consumir desde el front
+Proyecto Angular/React/otra tecnología Front para gestionar los TODOs, que consuma los servicios del proyecto API REST.
+Persistencia en DB a elección
